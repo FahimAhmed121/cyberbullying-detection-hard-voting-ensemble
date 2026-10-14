@@ -18,12 +18,12 @@ The final ensemble uses majority voting to combine predictions.
 
 ## Dataset
 
-The project uses the Kaggle Cyberbullying Classification dataset. The dataset contains tweets from six original categories, which are converted into two classes:
+The project uses the [Cyberbullying Tweets dataset on Kaggle](https://www.kaggle.com/datasets/pradeepjswl/cyberbullying-tweets/data). The dataset contains tweets from six original categories, which are converted into two classes:
 
 - `0` — Not Cyberbullying
 - `1` — Cyberbullying
 
-The script expects a dataset file named `cyberbullying_tweets.csv` in the project root. The dataset is not included in this repository by default.
+Download the dataset from Kaggle and place the CSV file named `cyberbullying_tweets.csv` in the project root before running the script. The dataset is not included in this repository by default.
 
 ## Feature Engineering
 
